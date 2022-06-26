@@ -1,0 +1,272 @@
+body {
+    margin: 0%;
+    height: max-content;
+}
+
+header {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 88px;
+}
+
+ul {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+li {
+    margin-top: 2.75%;
+    margin-bottom: 2.70%;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#home_burger {
+    color: black;
+}
+
+main {
+    height: max-content;
+}
+
+.info {
+    margin: 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info>* {
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.info a {
+    color: black;
+}
+
+h1 {
+    margin: 0%;
+}
+
+#lang {
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+span>* {
+    margin: 0%;
+    font-weight: 530;
+    font-size: 16px;
+}
+
+#pphoto {
+    margin: 5% 15% 7% 15%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    width: 70%;
+}
+
+.container_info {
+    font-weight: 530;
+    font-size: 18px;
+    padding: 8% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_info h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container {
+    height: 506px;
+    background-color: #F6F6F6;
+}
+
+.container_skills {
+    margin: 0% 15% 0% 15%;
+    height: 600px;
+}
+
+.first_skills {
+    padding: 8% 0% 6% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second_skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.second_skills img {
+    margin-top: 4%;
+}
+
+.first_skills h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.first_skills p {
+    font-weight: 530;
+    font-size: 18px;
+}
+
+.port_main {
+    background-color: #F6F6F6;
+}
+
+.portfolio {
+    height: 2250px;
+    margin: 0% 15% 0% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.port_one {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 636px;
+}
+
+.port_two {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 636px;
+}
+
+.port_three {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 636px;
+    margin-bottom: 10%;
+}
+
+.portfolio h2 {
+    margin: 0%;
+    padding: 7% 40% 3% 40%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.portfolio a {
+    color: black;
+    font-weight: 549;
+    font-size: 19px;
+}
+
+footer {
+    width: 100%;
+    height: 622px;
+    background-color: white;
+}
+
+footer h2 {
+    margin: 0%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer p {
+    font-weight: 530;
+    font-size: 19px;
+}
+
+.container_main {
+    height: 100%;
+    margin: 0% 37%;
+    display: flex;
+    align-items: center;
+}
+
+.container_purple {
+    height: 72%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container_11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 47%;
+}
+
+.container_11 a {
+    padding: 3% 10%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+
+.container_22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_22_text {
+    display: flex;
+    justify-content: center;
+    color: #828282;
+}
+
+.container_11 a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#one,
+#two,
+#three,
+#four, #message {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover, #message:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
